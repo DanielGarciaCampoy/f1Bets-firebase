@@ -1,0 +1,52 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  
+
+  <img src="../../../assets/images/logo.png" class="logo">
+  <swiper-container>
+    <swiper-slide>
+      <div class="slide-content">
+        <img src="../../../assets/images/home.avif" alt="Bienvenida" class="fondo">
+        <div class="text-overlay">
+          <h3><b>{{ 'home.bienvenidoA' | translate }} F1Bets</b></h3>
+          <p><i>{{ 'home.desliza' | translate }}</i></p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="slide-content">
+        <img src="../../../assets/images/pilotos.jpg" alt="Pilotos" class="fondo">
+        <div class="text-overlay">
+          <h3><b>{{ 'home.listade' | translate }} {{ 'app.pilotos' | translate }}</b></h3>
+          <p>{{ 'home.pilotosDesc' | translate }}</p>
+          <p><i>{{ 'home.desliza' | translate }}</i></p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="slide-content">
+        <img src="../../../assets/images/circuito.avif" alt="Pilotos" class="fondo">
+        <div class="text-overlay">
+          <h3><b>{{ 'home.listade' | translate }} {{ 'app.circuitos' | translate }}</b></h3>
+          <p>{{ 'home.circuitosDesc' | translate }}</p>
+          <p><i>{{ 'home.desliza' | translate }}</i></p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="slide-content">
+        <img src="../../../assets/images/apuesta.jpg" alt="Pilotos" class="fondo">
+        <div class="text-overlay">
+          <h3><b>{{ 'home.apuestasRealizadas' | translate }}</b></h3>
+          <p>{{ 'home.apuestasDesc' | translate }}</p>
+        </div>
+      </div>
+    </swiper-slide>
+  </swiper-container>
+  
+</ion-content>

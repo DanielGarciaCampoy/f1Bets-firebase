@@ -1,0 +1,85 @@
+.bordes {
+    border-radius: 20px;
+}
+
+ion-list {
+    background-color: var(--ion-background-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+}
+
+ion-card {
+    display: inline-block;
+    width: 250px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+ion-row.titulo ion-label { // ion-label del ion row
+    color: white;
+    font-size: 1.5em;
+}
+
+ion-row.titulo {
+    margin-left: 4%;
+}
+
+ion-row.subtitulo ion-label { // ion-label del ion row
+    font-size: 1.2em;
+}
+
+ion-row.subtitulo {
+    margin-left: 2%;
+}
+
+ion-button.botones {
+    min-width: 200px;
+}
+
+// al pasar el cursor por encima
+ion-card:hover {
+    background-color: #383a3e;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+// imagenes
+.zoom-div {
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.zoom-img {
+    transition: transform 0.5s;
+}
+
+.zoom-div:hover .zoom-img {
+    transform: scale(1.2);
+}
+
+// modal
+ion-icon.close {
+    transform: scale(1.7);
+}
+
+.modal-title {
+    font-size: 2em;
+}
+
+.mt-4 {
+    margin-top: 4%;
+}
+
+.modal-label {
+    font-size: 1.5em;
+}
+
+.modal-p {
+    font-size: 0.7em;
+}

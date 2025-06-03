@@ -1,0 +1,24 @@
+ion-icon.close {
+    transform: scale(1.7);
+}
+
+div.container {
+    padding: 20px;
+}
+
+ion-row.usuario {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+ion-row.botones {
+    margin-top: 20px;
+}
+
+ion-row.datos {
+    border-bottom: 1px solid gray;
+}
+
+ion-col ion-button {
+    min-width: 200px;
+}

@@ -1,0 +1,83 @@
+{
+    "app":{
+        "bienvenido":"Bienvenido",
+        "pilotos":"Pilotos",
+        "circuitos":"Circuitos",
+        "apuestas":"Apuestas",
+        "sesion":"Sesión iniciada como:",
+        "ajustes":"Ajustes",
+        "cerrarSesion":"Cerrar sesión",
+        "idioma":"Idioma"
+    },
+    "home":{
+        "bienvenidoA":"Bienvenido a",
+        "listade":"Lista de",
+        "estasRegistrado":"Estas registrado como:",
+        "desliza":"Desliza a la derecha para ver más >",
+        "pilotosDesc":"Lista de pilotos en la temporada actual de F1",
+        "circuitosDesc":"Donde puedes apostar qué piloto ganará en cada circuito",
+        "apuestasDesc":"Donde podrás ver una lista de las apuestas que has realizado",
+        "apuestasRealizadas":"Apuestas realizadas"
+    },
+    "ajustes":{
+        "usuario":"Nombre de usuario:",
+        "dinero":"Dinero",
+        "cerrarSesion":"Log out",
+        "eliminarCuenta":"Delete account"
+    },
+    "pilotos":{
+        "escuderia":"Escudería:",
+        "yearBirth":"Año de nacimiento:",
+        "editar":"Editar",
+        "eliminar":"Eliminar",
+        "img":"Cambiar imagen",
+        "nombre":"Nombre:",
+        "add":"Añadir",
+        "detalles":"Detalles",
+        "editPiloto":"Editar piloto",
+        "editCircuito":"Editar circuito",
+        "edad":"Años"
+    },
+    "circuitos":{
+        "vueltas":"Vueltas:",
+        "longitud":"Longitud:",
+        "apostar":"Apostar",
+        "pais":"Pais"
+    },
+    "userEdit":{
+        "editarPerfil":"Editar perfil"
+    },
+    "apuesta":{
+        "apuesta":"Se ha apostado:",
+        "victoria":"Por la victoria de:",
+        "circuito":"Circuito:",
+        "piloto":"Piloto:",
+        "dinero":"Dinero a apostar:",
+        "apostar":"Apostar",
+        "apuestaRealizada":"Apuesta realizada",
+        "apuestaGanada":"Apuesta ganada",
+        "apuestaPerdida":"Apuesta perdida",
+        "hasGanado":"Has ganado",
+        "hasPerdido":"Has perdido",
+        "enEl":"En el circuito de",
+        "ha":"ha ganado:",
+        "suficiente":"No tienes dinero suficiente"
+    },
+    "login":{
+        "login":"Iniciar sesión",
+        "email":"Correo electrónico",
+        "password":"Contraseña",
+        "register":"Registrarse",
+        "emailVal":"Formato de email incorrecto",
+        "passwordVal":"Al menos 8 caracteres, una letra mayúscula, una letra minúscula y un número",
+        "passwordRep":"Repetir contraseña",
+        "passwordNo":"No coincide la contraseña",
+        "noTienes":"¿No tienes cuenta?",
+        "incorrecta":"Correo y/o contraseña incorrectas"
+    },
+    "admin":{
+        "estas":"Estás registrado como admin",
+        "noEstas":"No estas registrado como admin",
+        "noPuedes":"No puedes acceder a editar y eliminar porque no estas registrado como admin."
+    }
+}
