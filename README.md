@@ -39,7 +39,7 @@ Proyecto final de DAW: donde uso angular con el framework de Ionic como front, y
     ![apuestas](https://github.com/DanielGarciaCampoy/f1Bets_ionic/assets/72436388/8bad5f00-7a1e-4f98-90fd-f2725dd8ff91)
 
 ## ¿Por qué usar Google Firebase en lugar de un backend tradicional?
-  En este proyecto decidí usar Firebase como backend en lugar de una arquitectura tradicional basada en frameworks como Spring Boot con Java debido a su simplicidad y mayor velocidad de desarrollo. Firebase ofrece un Backend-as-a-service (BaaS) que elimina la necesidad de configurar y mantener un servidor propio.
+  En este proyecto decidí usar Firebase como backend en lugar de una arquitectura tradicional basada en frameworks como Spring Boot con Java, por ejemplo, debido a su simplicidad y mayor velocidad de desarrollo. Firebase ofrece un Backend-as-a-service (BaaS) que elimina la necesidad de configurar y mantener un servidor propio.
 
 # Ventajas de usar Firebase
   - **Infraestructura menos compleja**<br>
