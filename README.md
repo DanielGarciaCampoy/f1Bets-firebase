@@ -42,9 +42,9 @@ Proyecto final de DAW: donde uso angular con el framework de Ionic como front, y
   En este proyecto decidí usar Firebase como backend en lugar de una arquitectura tradicional basada en frameworks como Spring Boot con Java debido a su simplicidad y mayor velocidad de desarrollo. Firebase ofrece un Backend-as-a-service (BaaS) que elimina la necesidad de configurar y mantener un servidor propio.
 
 # Ventajas de usar Firebase
-  - **Infraestructura menos compleja**
+  - **Infraestructura menos compleja**<br>
      Firebase proporciona servicios preconfigurados como autenticación, base de datos en tiempo real y Firestore, almacenamiento, funciones en la nube, etc., lo que permite centrarse más en la lógica de negocio y experiencia de usuario que en el mantenimiento de servidores y APIs REST tradicionales.
-  - **Desarrollo más rápido**
+  - **Desarrollo más rápido**<br>
     Al reducir la complicación de desarrollar un backend desde cero, te permite desarrollar las funcionalidades de la aplicación de forma más rápida y avanzada, pudiendo añadirle más funcionalidades
-  - **Funciones en la nube (Cloud Functions)**
+  - **Funciones en la nube (Cloud Functions)**<br>
      Permite ejecutar lógica del lado del servidor sin mantener un servidor. Esto cubre muchas necesidades típicas de un backend tradicional, como validaciones o integración con otros servicios.
