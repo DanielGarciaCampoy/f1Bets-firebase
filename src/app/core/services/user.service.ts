@@ -190,4 +190,19 @@ export class UserService {
       this._user.next(currentUser);
     }
   }
+
+  async reiniciarUserMoney(): Promise<void> {
+    const user = this.auth.currentUser;
+
+    var _user = {
+      uid: user?.uid ?? '',
+      betMoney: 100
+    };
+  
+    try {
+      await updateDoc(doc(this.firestore, 'user', _user.uid), _user);
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }

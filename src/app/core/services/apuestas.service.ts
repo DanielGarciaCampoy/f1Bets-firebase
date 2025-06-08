@@ -85,7 +85,7 @@ export class ApuestasService {
 
     const dineroActual = await this.userSvc.getUserBetMoney();
 
-    if (dineroActual! > apuesta.betMoney) {
+    if (dineroActual! >= apuesta.betMoney) {
       if (apuesta.idDriver === pilotoAleatorio.id) {
         // apuesta ganada
         this.userSvc.updateUserMoney(apuesta.betMoney * 23);
