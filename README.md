@@ -10,33 +10,26 @@ Proyecto final de DAW: donde uso angular con el framework de Ionic como front, y
   - **Login y regsiter:**
   Página para iniciar sesión o registrarse en caso de no tener cuenta
 
-  ![login](https://github.com/DanielGarciaCampoy/f1Bets_ionic/assets/72436388/2cd70ef5-0eff-4105-bca0-a25bba4bc41b)
-  ![register](https://github.com/DanielGarciaCampoy/f1Bets_ionic/assets/72436388/710c7a76-82c0-4bab-9428-2359165a4671)
+  
 
   - **Home**
     La primera página que se ve al iniciar sesión, en la que se ve un slider presentando las funciones de la app y acceder a ellas mediantes los tabs de la barra inferior o al popover de usuario
 
-    ![home](https://github.com/DanielGarciaCampoy/f1Bets_ionic/assets/72436388/b7283660-eafd-4f42-9a76-f7fb89b7fa9c)
 
   - **Ajustes**
     El popover que se menciona anteriormente permite que se pueda acceder a ajustes desde cualquier parte de la app, donde están las funciones de cerrar sesión, eliminar la cuenta y editar datos del usuario como el nombre de usuario
 
-    ![ajustes](https://github.com/DanielGarciaCampoy/f1Bets_ionic/assets/72436388/3b19aa27-ed4a-43e7-8c0b-5c94dbd29a62)
 
   - **Pilotos**
     La lista de pilotos, donde se puede hacer click en ellos para ver detalles y ajustes de los mismos, como eliminarlos o editarlos, además de añadir nuevos, en caso de estar registrado como admin.
 
-    ![pilotos](https://github.com/DanielGarciaCampoy/f1Bets_ionic/assets/72436388/bbcd9629-563d-4db9-8c0f-bd0da7f41850)
 
   - **Circuitos**
     La lista de circuitos, que funciona igual que la lista de pilotos anteriormente mencionada, función de eliminar, editar, añadir y ver detalles
 
-    ![circuitos](https://github.com/DanielGarciaCampoy/f1Bets_ionic/assets/72436388/dcac961d-edf4-4e38-b72c-0fdf4c839398)
 
   - **Apuestas**
     La lista de apuestas en curso, donde se podrá añadir la apuesta que se quiera realizar en el circuito por el piloto con el dinero que se desee siempre que se tenga
-
-    ![apuestas](https://github.com/DanielGarciaCampoy/f1Bets_ionic/assets/72436388/8bad5f00-7a1e-4f98-90fd-f2725dd8ff91)
 
 ## ¿Por qué usar Google Firebase en lugar de un backend tradicional?
   En este proyecto decidí usar Firebase como backend en lugar de una arquitectura tradicional basada en frameworks como Spring Boot con Java, por ejemplo, debido a su simplicidad y mayor velocidad de desarrollo. Firebase ofrece un Backend-as-a-service (BaaS) que elimina la necesidad de configurar y mantener un servidor propio.
