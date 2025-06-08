@@ -90,6 +90,7 @@ export class ApuestasService {
         // apuesta ganada
         this.userSvc.updateUserMoney(apuesta.betMoney * 23);
         apuestaGanada = true;
+        dineroSuficiente = true;
         console.log('Apuesta ganada');
       } else {
         // apuesta perdida
