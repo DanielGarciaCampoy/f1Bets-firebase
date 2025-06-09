@@ -52,7 +52,10 @@ Proyecto final de DAW: donde uso angular con el framework de Ionic como front, y
 
 ## Funcionalidades adicionales
   - **Ngx-translate**<br>
-    Es una librería para Angular que me ha permitido añadir dos idiomas simultaneos en la aplicación, inglés y español, pudiendo cambiar entre ellos en cualquier momento desde un botón en la barra superior.
+    Es una librería para Angular que me ha permitido añadir dos idiomas simultaneos en la aplicación, inglés y español, pudiendo cambiar entre ellos en cualquier momento desde un botón en la barra superior. Como se puede ver en la imagen como se puede ver ahora ajustes, como ejemplo, en inglés:
+![settings](https://github.com/user-attachments/assets/239ac84a-2c3c-4888-86dc-2b99eff90651)
+
+    
   - **Monedero**<br>
     La app cuenta con una función de monedero que te proporcionará con un bono ficticio de 100€ iniciales para apostar y que se reducirá o aumentará según las apuestas que se hagan.
 
