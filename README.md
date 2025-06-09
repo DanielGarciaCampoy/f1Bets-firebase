@@ -9,8 +9,8 @@ Proyecto final de DAW: donde uso angular con el framework de Ionic como front, y
 
   - **Login y regsiter:**
   Página para iniciar sesión o registrarse en caso de no tener cuenta
-
-  
+  ![login](https://github.com/user-attachments/assets/101e3a6c-f555-422c-95eb-ed43c9bb73ad)
+  ![register](https://github.com/user-attachments/assets/09bf0fee-d755-4386-b618-576302fca767)
 
   - **Home**
     La primera página que se ve al iniciar sesión, en la que se ve un slider presentando las funciones de la app y acceder a ellas mediantes los tabs de la barra inferior o al popover de usuario
